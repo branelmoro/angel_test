@@ -1,0 +1,32 @@
+Session
+	id
+	sid
+	status
+	createdAt
+
+Product
+	id
+	code
+	name
+	availableQuantity
+
+Cart
+	id
+	sessionId
+	status
+
+CartProduct
+	id
+	cartId
+	productCode
+	quantity
+	isOrdered
+	lastChangedAt
+
+Orders
+	id
+	cartId
+	sessionId
+	status
+	lastChangedAt
+

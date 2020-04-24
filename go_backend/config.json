@@ -1,0 +1,14 @@
+{
+	"apiServer": {
+		"port": 8100,
+		"host": "localhost"
+	},
+	"mysqldb": {
+		"host": "db4free.net",
+		"port": 3306,
+		"username": "branelmoro",
+		"password": "bimrim123",
+		"database": "angel_test",
+		"connectionPool": 10
+	}
+}
