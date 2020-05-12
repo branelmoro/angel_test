@@ -5,7 +5,7 @@ function isSimilar(str1, str2) {
 	}
 	var length = str1.length;
 
-	for(var i = 0; i < length; i++) {
+	for(var i = 0; i < length-1; i++) {
 		for(var j = i+1; j < length; j++) {
 			if(
 				(
